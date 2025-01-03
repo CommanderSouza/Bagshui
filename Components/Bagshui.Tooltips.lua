@@ -55,7 +55,7 @@ function Bagshui:InitTooltips()
 		)
 	end
 	self.tooltips.iconButton:SetScale(0.65)
-
+	self.tooltips.info:SetScale(0.75)
 
 	-- Hidden tooltip for retrieving item tooltips and forcing items to load into the local game cache.
 	self.tooltips.hidden = self:CreateTooltip("HiddenTooltip")
